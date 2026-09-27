@@ -14,7 +14,9 @@ At my core, I'm a **problem solver**. Whether it's a user who can't log in, a ne
 - 📝 **Documentation:** if I built it, I explain it, so others can learn from it and reproduce it
 
 ## 🚀 Projects
-
+### 🛡️ AI Agent Permission Audit (finished)
+A security audit of a desktop AI agent with folder access. I tested what it could see and do without asking, and whether hidden instructions in files could hijack it. An obvious injection was blocked, but a disguised "backup" task made it copy a password file with no approval prompt.
+→ https://github.com/feres-salhi/ai-agent-permission-audit
 ### 🔓 AI Jailbreak Lab (finished)
 A hands-on lab for testing how large language models resist, and fail against, jailbreak and prompt-injection attacks. Every experiment is documented so the results can be reproduced.
 → https://github.com/feres-salhi/ai-jailbreak-lab
