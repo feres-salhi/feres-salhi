@@ -33,4 +33,4 @@ A deliberately vulnerable LLM chatbot guarding a secret, attacked with 7 prompt-
 
 ---
 
-📫 **Let's connect:** [LinkedIn](https://www.linkedin.com/in/fares-salhi-03b53530a) · [Portfolio](https://magic-portfolio-for-next-js-one-fawn.vercel.app/)
+📫 **Let's connect:** [LinkedIn](https://www.linkedin.com/in/fares-salhi-03b53530a) · [Portfolio](https://faressalhi.com)
