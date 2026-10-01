@@ -29,7 +29,7 @@ A deliberately vulnerable LLM chatbot guarding a secret, attacked with 7 prompt-
 
 🎓 Computer Science (Informatik) at TU Darmstadt
 🗣️ Arabic (native) · German C1 · English C1 · French C1
-🏁 I solve CTF challenges in my free time to build hands-on security skills
+🏁 CTF player
 
 ---
 
