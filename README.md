@@ -2,45 +2,35 @@
 
 ### I love figuring out how things work, and how they break.
 
-I'm a 3rd-semester Computer Science (Informatik) student at TU Darmstadt, and I'm genuinely excited about **AI security**. Large language models are changing how everything is built, and I want to be one of the people who understands how to attack them, defend them, and make them trustworthy. That's what I spend my evenings on, and I don't plan to stop.
-
-At my core, I'm a **problem solver**. Whether it's a user who can't log in, a network that behaves strangely, or an AI model that can be tricked into ignoring its own rules, I like working a problem step by step until it's understood, fixed, and documented.
-
-## 🧠 What drives me
-
-- 🤖 **AI security:** prompt injection, jailbreaks, and how LLMs fail under pressure
-- 🛡️ **Defensive security:** detecting threats, investigating alerts, understanding attacks with MITRE ATT&CK
-- 🔧 **Troubleshooting:** calm, structured problem solving, from everyday IT issues to complex systems
-- 📝 **Documentation:** if I built it, I explain it, so others can learn from it and reproduce it
+I'm a 3rd-semester Computer Science (Informatik) student at TU Darmstadt, focused on **AI security**: how LLMs and AI agents can be attacked, tested and made safer. I learn by building hands-on labs in my own accounts and documenting every step, including what went wrong and what I'd do better.
 
 ## 🚀 Projects
-### 🛡️ AI Agent Permission Audit (finished)
-A security audit of a desktop AI agent with folder access. I tested what it could see and do without asking, and whether hidden instructions in files could hijack it. An obvious injection was blocked, but a disguised "backup" task made it copy a password file with no approval prompt.
+
+### 🛡️ Mini SOC in the Cloud: Elastic SIEM + AI Alert Triage
+A Windows server on AWS monitored by Elastic's EDR agent, a custom detection rule mapped to MITRE ATT&CK (T1033), and automated triage: each alert goes to Tines, an AI writes a summary, and the analyst gets an email, with no human in between.
+→ https://github.com/feres-salhi/elastic-siem-ai-soc-automation
+
+### 🤖 AI Agent Permission Audit
+A security audit of a desktop AI agent with folder access. An obvious prompt injection was blocked, but the same goal disguised as a routine "backup" task made the agent copy a password file without any approval prompt.
 → https://github.com/feres-salhi/ai-agent-permission-audit
-### 🔓 AI Jailbreak Lab (finished)
-A hands-on lab for testing how large language models resist, and fail against, jailbreak and prompt-injection attacks. Every experiment is documented so the results can be reproduced.
+
+### 🔓 AI Jailbreak Lab
+A deliberately vulnerable LLM chatbot guarding a secret, attacked with 7 prompt-injection techniques (OWASP LLM01). One innocent-sounding request leaked the secret; I then added an output filter as a second layer of defense.
 → https://github.com/feres-salhi/ai-jailbreak-lab
 
-### 🛰️ Sentinel (in progress, my main project)
-An AI-assisted mini security operations center, built phase by phase: network capture → ML anomaly detection → SQL alert store → an LLM copilot that explains alerts and maps them to MITRE ATT&CK. Each phase has to work before I move on.
-→ [Sentinel repo link]
-
 ## 🛠️ Skills & tools
-**Security:** LLM security · Prompt injection · MITRE ATT&CK · CTFs · Threat detection basics
-**Tech:** Python · Linux · SQL · Networking fundamentals · Git/GitHub · ML fundamentals
-**IT & automation:** Troubleshooting · Microsoft 365 · Workflow automation
 
-## 📜 Currently learning
-- Google Cybersecurity Professional Certificate
-- Microsoft SC-900 (Security, Compliance & Identity)
+**AI security:** prompt injection (direct & indirect) · jailbreak testing · AI agent permission testing · OWASP Top 10 for LLM Applications
+**Security operations:** Elastic Security (SIEM/EDR) · detection rules (KQL) · MITRE ATT&CK mapping · Tines (SOAR) · AWS EC2 & security groups
+**Programming:** Python · Java · C
+**Tools:** Git & GitHub · Anthropic API · VS Code · Markdown & Mermaid
 
 ## 🌍 About me
-🎓 Computer Science (Informatik) at TU Darmstadt · 3rd semester
-🗣️ German · English · French (all C1)
-🏁 Regular CTF player, because breaking things legally is the best way to learn
+
+🎓 Computer Science (Informatik) at TU Darmstadt
+🗣️ Arabic (native) · German C1 · English C1 · French C1
+🏁 I solve CTF challenges in my free time to build hands-on security skills
 
 ---
 
 📫 **Let's connect:** [LinkedIn](https://www.linkedin.com/in/fares-salhi-03b53530a) · [Portfolio](https://magic-portfolio-for-next-js-one-fawn.vercel.app/)
-
-*Always building, always breaking, always learning.* 🔐
