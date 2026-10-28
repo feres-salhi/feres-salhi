@@ -6,6 +6,18 @@ I'm a 3rd-semester Computer Science (Informatik) student at TU Darmstadt, focuse
 
 ## 🚀 Projects
 
+### 🏛️ SÜSIE: AI Compliance Review Assistant (Futury Build Days hackathon)
+Team project from a 32-hour hackathon by Futury, hessian.AI, ITSG and MAINGAU: an AI assistant supporting ITSG's legally required review of payroll software. I built the security and trust layer: a rule checker with an input guard (14/14 attacks stopped, 0 false alarms), verified retrieval that checks every AI quote against 1,219 rulebook sections, a privacy airlock that pseudonymizes personal data before any AI call (0 of 224 planted values leaked), and a tamper-evident receipt for reports. 167 tests pass.
+→ https://github.com/feres-salhi/futury-itsg-review-assistant
+
+### 🧱 AgentWarden: AI Agent Containment and Red-Teaming
+A tool-using AI agent contained in layers inspired by NVIDIA's Open Agent Safety Platform: a hardened Docker sandbox, a deny-by-default OPA policy checked before every tool call, an audit log, and a watchdog that kills the agent in about 430 ms. 13 automated promptfoo attacks found a case-sensitivity bypass that leaked a honeytoken; I fixed the policy and verified 13/13.
+→ https://github.com/feres-salhi/agentwarden
+
+### 📡 ADS-B Spoofing Detector: ML Attack Detection on Live Aircraft Signals
+Live aircraft broadcasts captured over the Rhine-Main area with a 27-euro software-defined radio, turned into flight tracks, and fed to an Isolation Forest anomaly detector. Red-teamed with synthetic spoofing attacks: 100% caught on held-out data with a 1.6% false-alarm rate, and its limits documented.
+→ https://github.com/feres-salhi/adsb-security-lab
+
 ### 🛡️ Mini SOC in the Cloud: Elastic SIEM + AI Alert Triage
 A Windows server on AWS monitored by Elastic's EDR agent, a custom detection rule mapped to MITRE ATT&CK (T1033), and automated triage: each alert goes to Tines, an AI writes a summary, and the analyst gets an email, with no human in between.
 → https://github.com/feres-salhi/elastic-siem-ai-soc-automation
@@ -20,15 +32,16 @@ A deliberately vulnerable LLM chatbot guarding a secret, attacked with 7 prompt-
 
 ## 🛠️ Skills & tools
 
-**AI security:** prompt injection (direct & indirect) · jailbreak testing · AI agent permission testing · OWASP Top 10 for LLM Applications
+**AI security:** prompt injection (direct & indirect) · agent red-teaming (promptfoo) · AI agent containment · RAG source verification · LLM privacy guards · adversarial ML testing · OWASP Top 10 for LLM and Agentic Applications
 **Security operations:** Elastic Security (SIEM/EDR) · detection rules (KQL) · MITRE ATT&CK mapping · Tines (SOAR) · AWS EC2 & security groups
-**Programming:** Python · Java · C
-**Tools:** Git & GitHub · Anthropic API · VS Code · Markdown & Mermaid
+**Security engineering:** Docker hardening · Open Policy Agent (Rego) · input validation · integrity checks (SHA-256, HMAC) · Grafana · Loki
+**Programming:** Python · Java · C · pytest · scikit-learn
+**Tools:** Git & GitHub · GitHub Actions (CI/CD) · Anthropic API · Docker
 
 ## 🌍 About me
 
 🎓 Computer Science (Informatik) at TU Darmstadt
-🗣️ Arabic (native) · German C1 · English C1 · French C1
+🗣️ German C1 · English C1 · French C1
 🏁 CTF player
 
 ---
